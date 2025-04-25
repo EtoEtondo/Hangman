@@ -1,0 +1,2 @@
+# Hangman
+Classic guessing game

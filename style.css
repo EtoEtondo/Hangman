@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  height: 600px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+svg {
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  background-color: #fefefe;
+}
+
+.word-display {
+  font-size: 32px;
+  letter-spacing: 8px;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.letter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.letter-btn {
+  padding: 8px 12px;
+  font-size: 16px;
+  min-width: 40px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.letter-btn:hover:not(:disabled) {
+  background-color: #d0d0d0;
+}
+
+.letter-btn:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
+
+.guesses-info {
+  font-size: 18px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #1976d2;
+}

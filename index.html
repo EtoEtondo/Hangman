@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen">
+      <h1>Hangman Game</h1>
+      <svg id="start-hangman-svg" width="200" height="200"></svg>
+      <button id="start-button" class="btn">Start Game</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen hidden">
+      <svg id="hangman-svg" width="200" height="200"></svg>
+      <div id="word-display" class="word-display"></div>
+      <div id="letter-buttons" class="letter-buttons"></div>
+      <p class="guesses-info">Guesses left: <span id="guesses-left"></span></p>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" class="screen hidden">
+      <h2 id="result-message"></h2>
+      <p>The word was: <span id="correct-word"></span></p>
+      <button id="play-again" class="btn">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

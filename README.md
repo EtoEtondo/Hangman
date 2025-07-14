@@ -5,7 +5,7 @@ A classic Hangman game – reimagined for the browser and playable directly via 
 ---
 
 ### 🎮 Play it here:  
-👉 [https://etoeetondo.github.io/Hangman](https://etoeetondo.github.io/Hangman)
+👉 [https://etoeetondo.github.io/Hangman](https://etoetondo.github.io/Hangman)
 
 ---
 
